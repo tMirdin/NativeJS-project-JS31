@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+li,
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ? header start */
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul:nth-child(2) {
+  width: 36%;
+}
+nav ul:nth-child(2) li:hover {
+  text-decoration: underline;
+  text-decoration-color: #6e9c9f;
+}
+nav strong {
+  font-weight: 700;
+  color: #6e9c9f;
+}
+nav ul:last-child {
+  width: 22.9%;
+}
+nav div {
+  width: 12.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_phone img {
+  padding: 5px;
+}
+
+.head__left {
+  max-width: 50%;
+  margin-top: 186px;
+}
+.head__left h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.15rem;
+  line-height: 110%;
+  letter-spacing: 0.01em;
+}
+
+.head__left p {
+  margin-top: 45px;
+  width: 68%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 28px */
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.head__left div {
+  display: flex;
+  width: 68%;
+  justify-content: flex-end;
+  margin-top: 52px;
+}
+
+.head__left img {
+  width: 14px;
+  height: 29px;
+  background: rgba(110, 156, 159, 0.1);
+  padding: 19.5px 26.5px;
+}
+.head__left button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 50px;
+  width: 243px;
+  height: 68px;
+  background: #6e9c9f;
+  border: none;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.head__right {
+  position: absolute;
+  width: 44rem;
+  height: 51.6rem;
+  background-color: #f1eadc;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#middle-photo {
+  position: absolute;
+  width: 190px;
+  height: 318px;
+  left: -11%;
+  top: 61.5%;
+  z-index: 2;
+}
+
+#big-photo {
+  position: absolute;
+  width: 410px;
+  height: 646px;
+  left: 8%;
+  top: 15%;
+  z-index: 1;
+}
+
+#little-photo {
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  left: 52%;
+  top: 30%;
+  z-index: 2;
+}
+
+/* todo header finish */
