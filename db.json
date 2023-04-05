@@ -1,52 +1,12 @@
 {
   "profiles": [
     {
-      "name": "Daniel",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "12345678",
-      "skills": "sdfgsdfsdfsdfsdf",
-      "price": "300",
-      "id": 1
-    },
-    {
-      "name": "Daniel",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "12345678",
-      "skills": "sdfgsdfsdfsdfsdf",
-      "price": "300",
-      "id": 2
-    },
-    {
-      "name": "76767",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "767",
-      "skills": "6767",
-      "price": "67",
-      "id": 3
-    },
-    {
-      "name": "78787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "7878",
-      "skills": "787878",
-      "price": "78787",
-      "id": 4
-    },
-    {
-      "name": "787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "8787",
-      "skills": "87",
-      "price": "878",
+      "name": "margo",
+      "image": "https://ychef.files.bbci.co.uk/976x549/p0dnxrcv.jpg",
+      "number": "852147",
+      "skills": "oop",
+      "price": "2500",
       "id": 5
-    },
-    {
-      "name": "787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "8787",
-      "skills": "87878",
-      "price": "7878",
-      "id": 6
     }
   ]
 }

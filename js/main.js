@@ -7,6 +7,8 @@ let inpPrice = document.getElementById("inpPrice");
 let btnCreate = document.getElementById("btnCreate");
 const API = "http://localhost:8000/profiles";
 let form = document.querySelector("form");
+let cardsContainer = document.querySelector(".cards-container");
+// console.log(cardsContainer);
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -48,5 +50,32 @@ async function createProfile(objProf) {
   let inputs = document.querySelectorAll("form input");
   inputs.forEach((elem) => {
     elem.value = "";
+  });
+}
+
+// Read - displaing the data
+async function readProfile() {
+  let res = await fetch(API);
+  let data = await res.json();
+  // cardsContainer.innerHTML = "";
+  data.forEach((a, id) => {
+    cardsContainer.innerHTML += `
+        <div class="card-profile">
+          <img src="${a.image}" alt="#" />
+          <h4>${a.name}</h4>
+          <span>$${a.price}</span>
+        </div>
+        <button onclick="deleteProfile(${id})">delete</button>`;
+    // console.log(a);
+  });
+}
+readProfile();
+
+async function deleteProfile(id) {
+  await fetch(`${API}/${id}`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
   });
 }
