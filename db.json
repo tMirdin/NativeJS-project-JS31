@@ -1,12 +1,36 @@
 {
   "profiles": [
     {
-      "name": "margo",
-      "image": "https://ychef.files.bbci.co.uk/976x549/p0dnxrcv.jpg",
-      "number": "852147",
-      "skills": "oop",
-      "price": "2500",
+      "name": "Мирдин",
+      "image": "https://images.theconversation.com/files/500899/original/file-20221214-461-22jr1l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "number": "996444333222",
+      "skills": "Some sources list the budget at around $350 million dollars, meaning it will need to make upwards of $2 billion at the worldwide box office just to break even.",
+      "price": "50",
+      "id": 3
+    },
+    {
+      "name": "ghghg",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/2e51cb8b-fd51-4166-84a2-63559733baac/300x450",
+      "number": "78787",
+      "skills": "ghgh",
+      "price": "8787",
+      "id": 4
+    },
+    {
+      "name": "78787",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/2e51cb8b-fd51-4166-84a2-63559733baac/300x450",
+      "number": "8787",
+      "skills": "878",
+      "price": "78787",
       "id": 5
+    },
+    {
+      "name": "78787",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/2e51cb8b-fd51-4166-84a2-63559733baac/300x450",
+      "number": "878",
+      "skills": "7878",
+      "price": "7878",
+      "id": 6
     }
   ]
 }
