@@ -7,7 +7,7 @@ let inpPrice = document.getElementById("inpPrice");
 let btnCreate = document.getElementById("btnCreate");
 const API = "http://localhost:8000/profiles";
 let form = document.querySelector("form");
-let cardsContainer = document.querySelector(".cards-container")
+let cardsContainer = document.querySelector(".cards-container");
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -54,35 +54,30 @@ async function createProfile(objProf) {
   });
 }
 
-
-// Read - отображение данных 
-async function readProfile(){
-let res = await fetch(API);
-cardsContainer.innerHTML=""
-// console.log(res);
-let data = await res.json()
-// console.log(data);
-data.forEach((elem)=>{
-  cardsContainer.innerHTML+=`
-  <div class="card-profile">
-          <img src="${elem.image}" alt="" />
+// Read - отображение данных
+async function readProfile() {
+  let res = await fetch(API);
+  let data = await res.json();
+  cardsContainer.innerHTML = "";
+  data.forEach((elem) => {
+    cardsContainer.innerHTML += `
+    <div class="card-profile">
+          <img src="${elem.image}" alt="${elem.name}" />
           <h4>${elem.name}</h4>
           <span>$${elem.price}</span>
           <button onclick="deleteProfile(${elem.id})">delete</button>
           <button>edit</button>
-        </div>`
-})
-} 
+        </div>
+    `;
+  });
+}
 readProfile();
 
-// delete- удаление одного элемента по айди
+// Delete - удаление одного элемента по id
 
-async function deleteProfile(id){
-await fetch(`${API}/${id}`,{
-  method:"DELETE",
-});
-readProfile();
-};
-
-
-
+async function deleteProfile(id) {
+  await fetch(`${API}/${id}`, {
+    method: "DELETE",
+  });
+  readProfile();
+}
