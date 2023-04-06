@@ -66,6 +66,7 @@ async function readProfile() {
           <h4>${elem.name}</h4>
           <span>$${elem.price}</span>
           <button onclick="deleteProfile(${elem.id})">delete</button>
+          <button>edit</button>
         </div>
     `;
   });
