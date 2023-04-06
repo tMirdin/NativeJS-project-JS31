@@ -37,14 +37,46 @@
     <section class="container add-block">
       <h2>Магазин</h2>
       <form>
-        <input placeholder="Имя" type="text" id="inpName" />
-        <input placeholder="Изображение" type="url" id="inpImg" />
-        <input placeholder="Номер телефона" type="number" id="inpNumber" />
-        <input placeholder="Описание" type="text" id="inpSkills" />
-        <input placeholder="Цена" type="number" id="inpPrice" />
+        <div class="allInputs">
+          <input placeholder="Имя" type="text" id="inpName" class="inputs" />
+          <input
+            placeholder="Изображение"
+            type="url"
+            id="inpImg"
+            class="inputs"
+          />
+          <input
+            placeholder="Номер телефона"
+            type="number"
+            id="inpNumber"
+            class="inputs"
+          />
+          <input
+            placeholder="Описание"
+            type="text"
+            id="inpSkills"
+            class="inputs"
+          />
+          <input
+            placeholder="Цена"
+            type="number"
+            id="inpPrice"
+            class="inputs"
+          />
+        </div>
         <button id="btnCreate">Создать</button>
       </form>
     </section>
+
+    <!-- filter buttons made by adik  -->
+    <div class="filter_btns container">
+      <button class="filter_btn" id="btn1">Все</button>
+      <button class="filter_btn" id="btn2">Пальто</button>
+      <button class="filter_btn" id="btn3">Свитшоты</button>
+      <button class="filter_btn" id="btn4">Кардиганы</button>
+      <button class="filter_btn" id="btn5">Толстовки</button>
+    </div>
+    <!-- filter buttons made by adik  -->
 
     <section class="container main-cards">
       <div class="cards-container">
@@ -55,6 +87,47 @@
         </div> -->
       </div>
     </section>
+
+    <!-- start card-block made by meerim (cards)-->
+    <div class="container card-block">
+      <div class="card">
+        <img
+          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
+          alt="person"
+        />
+        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
+        <h4>60$/час</h4>
+      </div>
+      <div class="card">
+        <img
+          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
+          alt="person"
+        />
+        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
+        <h4>60$/час</h4>
+      </div>
+      <div class="card">
+        <img
+          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
+          alt="person"
+        />
+        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
+        <h4>60$/час</h4>
+      </div>
+    </div>
+    <!-- end card-block made by meerim (cards)-->
+    <!--  start footer part made by sultan and marlen -->
+    <div class="container">
+      <p class="list">Показано: 9 из 12 товаров</p>
+    </div>
+    <div class="container">
+      <div class="twobtn">
+        <button class="btn btnOne active">1</button>
+        <button class="btn btnTwo">2</button>
+        <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+    </div>
+    <!-- end footer part made by sultan and marlen -->
 
     <!-- ? Start modal -->
     <div id="modal">
