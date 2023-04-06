@@ -1,52 +1,44 @@
 {
   "profiles": [
     {
-      "name": "Daniel",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "12345678",
-      "skills": "sdfgsdfsdfsdfsdf",
-      "price": "300",
-      "id": 1
-    },
-    {
-      "name": "Daniel",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "12345678",
-      "skills": "sdfgsdfsdfsdfsdf",
-      "price": "300",
-      "id": 2
-    },
-    {
-      "name": "76767",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "767",
-      "skills": "6767",
-      "price": "67",
+      "name": "Мирдин",
+      "image": "https://images.theconversation.com/files/500899/original/file-20221214-461-22jr1l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "number": "996444333222",
+      "skills": "Some sources list the budget at around $350 million dollars, meaning it will need to make upwards of $2 billion at the worldwide box office just to break even.",
+      "price": "50",
       "id": 3
     },
     {
-      "name": "78787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "7878",
-      "skills": "787878",
-      "price": "78787",
+      "name": "Мирдин",
+      "image": "https://images.theconversation.com/files/500899/original/file-20221214-461-22jr1l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "number": "996444333222",
+      "skills": "Some sources list the budget at around $350 million dollars, meaning it will need to make upwards of $2 billion at the worldwide box office just to break even.",
+      "price": "50",
       "id": 4
     },
     {
-      "name": "787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "8787",
-      "skills": "87",
-      "price": "878",
+      "name": "Мирдин",
+      "image": "https://images.theconversation.com/files/500899/original/file-20221214-461-22jr1l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "number": "996444333222",
+      "skills": "Some sources list the budget at around $350 million dollars, meaning it will need to make upwards of $2 billion at the worldwide box office just to break even.",
+      "price": "50",
       "id": 5
     },
     {
-      "name": "787",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
-      "number": "8787",
-      "skills": "87878",
-      "price": "7878",
+      "name": "Mulan",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/ct_mulan_upcportalreskin_20694_78e0045d.jpeg?region=0,0,330,330",
+      "number": "12345678",
+      "skills": "krutyshka",
+      "price": "8439592",
       "id": 6
+    },
+    {
+      "name": "Darika",
+      "image": "https://static.wikia.nocookie.net/disney/images/2/25/Profile_-_Vanellope_Von_schweetz.jpeg/revision/latest?cb=20190312023329",
+      "number": "2134567765",
+      "skills": "Frontend developer",
+      "price": "1234567",
+      "id": 7
     }
   ]
 }
