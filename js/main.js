@@ -82,46 +82,18 @@ async function deleteProfile(id) {
   readProfile();
 }
 
-// Read - отображение данных
-async function readProfile() {
-  let res = await fetch(API);
-  let data = await res.json();
-  cardsContainer.innerHTML = "";
-  data.forEach((elem) => {
-    cardsContainer.innerHTML += `
-    <div class="card-profile">
-          <img src="${elem.image}" alt="${elem.name}" />
-          <h4>${elem.name}</h4>
-          <span>$${elem.price}</span>
-          <button onclick="deleteProfile(${elem.id})">delete</button>
-          <button>edit</button>
-        </div>
-    `;
-  });
-}
-readProfile();
-
-// Delete - удаление одного элемента по id
-
-async function deleteProfile(id) {
-  await fetch(`${API}/${id}`, {
-    method: "DELETE",
-  });
-  readProfile();
-}
-
 // ! Edit
-let editBtns = document.querySelectorAll('.btnEdit');
-let modal = document.querySelector('.editModal');
-let closeBtn = document.querySelector('#closeEditModal');
+let editBtns = document.querySelectorAll(".btnEdit");
+let modal = document.querySelector(".editModal");
+let closeBtn = document.querySelector("#closeEditModal");
 
 console.log(closeBtn);
-editBtns.forEach((elem)=>{
-  elem.addEventListener('click',()=>{
-      modal.style.display = 'flex' 
-  })
-})
+editBtns.forEach((elem) => {
+  elem.addEventListener("click", () => {
+    modal.style.display = "flex";
+  });
+});
 
-closeBtn.addEventListener('click' , ()=>{
-  modal.style.display = 'none'
-})
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
