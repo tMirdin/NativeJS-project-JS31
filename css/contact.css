@@ -1,0 +1,33 @@
+.infoAndAddress{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.map{
+    width: 1000px;
+    margin: 0 auto;
+}
+.hr{
+    margin: 100px 0px 70px 0px;
+}
+.form{
+    width: 40%;
+    margin-top: 90px;
+    margin-bottom: 140px;
+}
+.form input{
+    width: 90%;
+    border: none;
+    display: block;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+    margin: 15px 0px;
+}
+.form textarea{
+    width: 90%;
+    border: none;
+    display: block;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+    margin: 15px 0px;
+}
