@@ -50,7 +50,6 @@ body {
   /* background-color: rgba(0, 0, 0, 0.336); */
 }
 #modal {
-  /* display: flex; */
   display: none;
   width: 1000px;
   height: 700px;
