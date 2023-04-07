@@ -170,3 +170,238 @@ nav div {
 }
 
 /* todo header finish */
+
+
+/* ! Azamat */
+/* freshblood start */
+.freshBlood {
+  margin-top: 300px;
+  margin-left: 190px;
+}
+.freshBlood h2 {
+  /* Заголовок h2 */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.newCards {
+  margin-top: 92px;
+  display: flex;
+  width: 1110px;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 558px;
+}
+.card h4 {
+  /* Заголовок h4 */
+  margin-top: 24px;
+  display: inline;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.card span {
+  /* Цена в карточке товара */
+  margin-top: 7px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #998e78;
+}
+.card div {
+  margin-top: 28px;
+}
+.openShop {
+  margin-top: 65px;
+  /* display: flex; */
+  padding: 0 400px;
+}
+.openShop button {
+  margin: 0 auto;
+  width: 243px;
+  height: 68px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 138.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #6e9c9f;
+  background-color: white;
+  border: 1px solid #6e9c9f;
+}
+/* !  End Azamat */
+/* !  Start Jora */
+.info-container h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+
+.info-container {
+  margin: 130px 190px;
+}
+
+.info {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 75px;
+}
+
+.info-list h4 {
+  margin-top: 37px;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+}
+
+.info-list p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/*!  End Jora */
+
+/* ! Slider Dream Team  Start     made by Emil && Roma */
+
+.conSlider {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  /* background-color: #6e9c9f; */
+}
+.conSlider h2 {
+  margin-left: 70px;
+  margin-bottom: 92px;
+  font-size: 40px;
+}
+.sliderBlock {
+  display: flex;
+  /* background-color: rgb(8, 83, 58); */
+}
+
+.sliderBlock_text {
+  margin: 78px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sliderBlock_text h3 {
+  font-size: 25px;
+}
+.sliderBlock_text p {
+  font-size: 17px;
+}
+.sliderBlock_text a {
+  font-size: 17px;
+  color: #6e9c9f;
+}
+.sliderBlock_image {
+  display: flex;
+  align-items: center;
+}
+
+.slider_btn_left {
+  width: 28px;
+  height: 16px;
+  background-color: #ffffff;
+
+  margin: 0 10px;
+  border: none;
+  background-image: url(../images/Vector\ left.svg);
+}
+.slider_btn_right {
+  width: 28px;
+  height: 16px;
+  background-color: #ffffff;
+
+  margin: 0 10px;
+  border: none;
+  background-image: url(../images/Vector\ right.svg);
+}
+
+/* ! Slider Dream Team  Finish   made by Emil && Roma */
+/* ! Footer start Nil */
+
+footer {
+  background-color: #F1EADC;
+}
+.wrapper {
+  padding: 100px 210px;
+  display: flex;
+}
+.text_politics {
+  padding-top: 60px;
+  height: 65px;
+}
+.footer_links{
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+.wrapper p {
+  margin: 0;
+  padding: 0;
+}
+.text_politics  p{
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.clothes {
+  padding-top: 40px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_links p:hover{
+color:#6E9C9F;
+font-size: 15px;
+font-weight: bold;
+}
+
+.block_2{
+  padding-left: 180px;
+  text-align: end;
+}
+.clothes p {
+  font-size: 13px;
+}
+.social {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.img_master {
+  padding-top: 30px;
+}
+.block_2 p:nth-child(2){
+  padding-top: 10px;
+}
+/* ! end Nil */

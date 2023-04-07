@@ -1,12 +1,10 @@
 .add-block {
   margin-top: 140px;
 }
-
 .main-cards {
   margin-top: 200px;
   margin-bottom: 130px;
 }
-
 .cards-container {
   display: flex;
   justify-content: space-between;
