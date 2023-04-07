@@ -45,14 +45,24 @@
 }
 
 /* start modal */
+body {
+  position: relative;
+  /* нужно onclick на модалку задать body  */
+
+  /* background-color: rgba(0, 0, 0, 0.336); */
+}
 #modal {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  display: none;
   width: 1000px;
   height: 700px;
   max-width: 70%;
   margin: 25px auto;
   border: 1px solid #998e78;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  background-color: #fff;
 }
 
 #modalLeft {
@@ -67,10 +77,10 @@
 #modalRight {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   padding-left: 64px;
   padding-right: 60px;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 #modalRight h2 {
