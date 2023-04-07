@@ -272,3 +272,32 @@ body {
   width: 35px;
   height: 35px;
 }
+
+.btnEdit{
+  width: 40%;
+  height: 5%;
+  border: 2px solid black;
+}
+.formEdit{
+  /* display: flex; */
+  margin: auto;
+  /* width: 100%; */
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+#closeEditModal{
+  height: 5%;
+  width: 5%;
+}
+.editModal{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 40% ;
+}
+.editInps{
+  width: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

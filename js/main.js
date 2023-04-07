@@ -109,3 +109,19 @@ async function deleteProfile(id) {
   });
   readProfile();
 }
+
+// ! Edit
+let editBtns = document.querySelectorAll('.btnEdit');
+let modal = document.querySelector('.editModal');
+let closeBtn = document.querySelector('#closeEditModal');
+
+console.log(closeBtn);
+editBtns.forEach((elem)=>{
+  elem.addEventListener('click',()=>{
+      modal.style.display = 'flex' 
+  })
+})
+
+closeBtn.addEventListener('click' , ()=>{
+  modal.style.display = 'none'
+})
