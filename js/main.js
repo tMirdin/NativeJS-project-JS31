@@ -8,6 +8,7 @@ let btnCreate = document.getElementById("btnCreate");
 const API = "http://localhost:8000/profiles";
 let form = document.querySelector("form");
 let cardsContainer = document.querySelector(".cards-container");
+let detailsModal = document.querySelector("#modal");
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -62,7 +63,7 @@ async function readProfile() {
   data.forEach((elem) => {
     cardsContainer.innerHTML += `
     <div class="card-profile">
-          <img src="${elem.image}" alt="${elem.name}" />
+          <img src="${elem.image}" alt="${elem.name}" onclick="showDetailsModal()"/>
           <h4>${elem.name}</h4>
           <span>$${elem.price}</span>
           <button onclick="deleteProfile(${elem.id})">delete</button>
@@ -91,19 +92,57 @@ let editInpImage = document.querySelector("#editInpImage");
 let editInpNumber = document.querySelector("#editInpNumber");
 let editInpDesc = document.querySelector("#editInpDesc");
 let editInpPrice = document.querySelector("#editInpPrice");
+let editForm = document.querySelector("#editForm");
+let btnSave = document.querySelector("#editForm button");
 
 async function showModalEdit(id) {
   modal.style.display = "flex";
   let res = await fetch(`${API}/${id}`);
   let data = await res.json();
-  // console.log(data);
+  console.log(data);
   editInpName.value = data.name;
   editInpImage.value = data.image;
   editInpNumber.value = data.number;
   editInpDesc.value = data.skills;
   editInpPrice.value = data.price;
+  btnSave.setAttribute("id", data.id);
+}
+
+editForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let editedProfile = {
+    name: editInpName.value,
+    image: editInpImage.value,
+    number: editInpNumber.value,
+    skills: editInpDesc.value,
+    price: editInpPrice.value,
+  };
+  console.log(btnSave.id);
+  editProfileFunc(editedProfile, btnSave.id);
+});
+
+async function editProfileFunc(editedProfile, id) {
+  try {
+    await fetch(`${API}/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+      },
+      body: JSON.stringify(editedProfile),
+    });
+    modal.style.display = "none";
+    readProfile();
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
+
+// ! Details - детальное отображение данных
+
+function showDetailsModal() {
+  detailsModal.style.display = "flex";
+}
