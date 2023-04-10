@@ -1,14 +1,6 @@
 {
   "profiles": [
     {
-      "name": "fgvhb",
-      "image": "https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg",
-      "number": "55555555555",
-      "skills": "dsg",
-      "price": "5678",
-      "id": 7
-    },
-    {
       "name": "78787",
       "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalclassworld.com%2Fblog%2Ffull-form-of-url%2F&psig=AOvVaw0SvSt1V5pOmMpbMSpzrFsK&ust=1680673451402000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiPx9LCj_4CFQAAAAAdAAAAABAD",
       "number": "7878",
@@ -31,6 +23,14 @@
       "skills": "87878",
       "price": "7878",
       "id": 6
+    },
+    {
+      "name": "Уилл",
+      "image": "https://www.vokrug.tv/pic/person/b/9/9/a/b99a3231be2d48070f7a88393c6bfea8.jpg",
+      "number": "999777888",
+      "skills": "Уилл Смит (Will Smith) (Актер, Продюсер, Актер озвучивания):",
+      "price": "340",
+      "id": 7
     }
   ]
 }

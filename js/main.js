@@ -66,7 +66,7 @@ async function readProfile() {
           <h4>${elem.name}</h4>
           <span>$${elem.price}</span>
           <button onclick="deleteProfile(${elem.id})">delete</button>
-          <button>edit</button>
+          <button onclick="showModalEdit(${elem.id})">edit</button>
         </div>
     `;
   });
@@ -83,16 +83,26 @@ async function deleteProfile(id) {
 }
 
 // ! Edit
-let editBtns = document.querySelectorAll(".btnEdit");
+// let editBtns = document.querySelector(".btnEdit");
 let modal = document.querySelector(".editModal");
 let closeBtn = document.querySelector("#closeEditModal");
+let editInpName = document.querySelector("#editInpName");
+let editInpImage = document.querySelector("#editInpImage");
+let editInpNumber = document.querySelector("#editInpNumber");
+let editInpDesc = document.querySelector("#editInpDesc");
+let editInpPrice = document.querySelector("#editInpPrice");
 
-console.log(closeBtn);
-editBtns.forEach((elem) => {
-  elem.addEventListener("click", () => {
-    modal.style.display = "flex";
-  });
-});
+async function showModalEdit(id) {
+  modal.style.display = "flex";
+  let res = await fetch(`${API}/${id}`);
+  let data = await res.json();
+  // console.log(data);
+  editInpName.value = data.name;
+  editInpImage.value = data.image;
+  editInpNumber.value = data.number;
+  editInpDesc.value = data.skills;
+  editInpPrice.value = data.price;
+}
 
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";

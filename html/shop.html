@@ -89,47 +89,7 @@
     </section>
 
     <!-- start card-block made by meerim (cards)-->
-    <div class="container card-block">
-      <div class="card">
-        <img
-          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
-          alt="person"
-        />
-        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
-        <h4>60$/час</h4>
-        <button class="btnEdit">edit</button>
-      </div>
-      <div class="card">
-        <img
-          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
-          alt="person"
-        />
-        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
-        <h4>60$/час</h4>
-        <button class="btnEdit">edit</button>
-      </div>
-      <div class="card">
-        <img
-          src="../images/christopher-campbell-va0YmkIFtPA-unsplash 1.jpg"
-          alt="person"
-        />
-        <h3><a href="#">Аарон Анастасий Антонович</a></h3>
-        <h4>60$/час</h4>
-        <button class="btnEdit">edit</button>
-      </div>
-    </div>
-    <!-- end card-block made by meerim (cards)-->
-    <!--  start footer part made by sultan and marlen -->
-    <div class="container">
-      <p class="list">Показано: 9 из 12 товаров</p>
-    </div>
-    <div class="container">
-      <div class="twobtn">
-        <button class="btn btnOne active">1</button>
-        <button class="btn btnTwo">2</button>
-        <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
-      </div>
-    </div>
+    <div class="container cards-container"></div>
     <!-- end footer part made by sultan and marlen -->
 
     <!-- ? Start modal -->
@@ -173,10 +133,36 @@
       <!-- <div id="modal-r"> -->
       <form action="" class="formEdit">
         <h1>Edit</h1>
-        <input type="text" name="" class="editInps" />
-        <input type="text" name="" class="editInps" />
-        <input type="text" name="" class="editInps" />
-        <input type="text" name="" class="editInps" />
+        <input
+          type="text"
+          placeholder="Имя"
+          class="editInps"
+          id="editInpName"
+        />
+        <input
+          type="url"
+          placeholder="Изображение"
+          class="editInps"
+          id="editInpImage"
+        />
+        <input
+          type="number"
+          placeholder="Номер телефона"
+          class="editInps"
+          id="editInpNumber"
+        />
+        <input
+          type="text"
+          placeholder="Описание"
+          class="editInps"
+          id="editInpDesc"
+        />
+        <input
+          type="number"
+          placeholder="Цена"
+          class="editInps"
+          id="editInpPrice"
+        />
         <button id="save">save changes</button>
       </form>
       <!-- </div> -->
