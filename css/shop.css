@@ -1,5 +1,5 @@
 .add-block {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 /* .main-cards {
   margin-top: 200px;
@@ -70,6 +70,7 @@
 form {
   display: flex;
   flex-direction: column;
+  gap: 1em;
 }
 
 .allInputs {
@@ -81,7 +82,6 @@ form {
   width: 165px;
   height: 35px;
   background-color: white;
-  margin-right: 7px;
   /* cursor: pointer; */
   border: 2px solid rgb(0, 70, 0);
   transition: 0.3s;
@@ -90,31 +90,22 @@ form {
 }
 
 .inputs:hover {
-  background-color: rgba(0, 0, 0, 0.623);
-  color: white;
   transition: 0.1s;
   border-radius: 5px;
   font-size: 1em;
 }
 
-:hover::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: white;
-}
-
 #btnCreate {
-  width: 165px;
-  height: 35px;
-  background-color: white;
-  margin-right: 7px;
+  width: 170px;
+  height: 42px;
+  color: white;
   cursor: pointer;
   border: 2px solid hwb(120 0% 68%);
   transition: 0.3s;
   text-align: center;
-  margin-top: 1em;
   align-self: flex-end;
   border-radius: 5px;
-  margin-bottom: 1em;
+  background-color: hwb(120 0% 50%);
 }
 
 #btnCreate:hover {
@@ -122,7 +113,7 @@ form {
   color: white;
   transition: 0.3s;
   border-radius: 5px;
-  /* font-size: 1em; */
+  font-size: 1em;
 }
 /* end style all inputs inside form */
 
@@ -132,7 +123,7 @@ form {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 2em;
+  margin: 3em auto 6em;
 }
 .filter_btn {
   width: 180px;
@@ -157,6 +148,12 @@ form {
   width: 41px;
   height: 41px;
   border: 2px solid black;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  font-size: 25px;
 }
 
 .active {
@@ -170,8 +167,43 @@ form {
   margin: 2em 0;
   justify-content: center;
   gap: 1em;
-  font-size: 20px;
 }
+
+/* start search input style */
+.searchInput {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.searchInput input {
+  width: 77%;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid hwb(120 0% 68%);
+  font-size: 1em;
+  transition: 0.3s;
+  padding-left: 1em;
+}
+
+.searchInput input:hover {
+  font-size: 1.1em;
+}
+
+.searchInput button {
+  height: 50px;
+  width: 20%;
+  font-size: 1em;
+  background-color: hwb(120 0% 50%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.searchInput button:hover {
+  font-size: 1.1em;
+}
+/* end search input style */
 
 /* ?end css changes by marlen */
 
@@ -273,12 +305,12 @@ body {
   height: 35px;
 }
 
-.btnEdit{
+.btnEdit {
   width: 40%;
   height: 5%;
   border: 2px solid black;
 }
-.formEdit{
+.formEdit {
   /* display: flex; */
   margin: auto;
   /* width: 100%; */
@@ -286,17 +318,17 @@ body {
   align-content: center;
   justify-content: center;
 }
-#closeEditModal{
+#closeEditModal {
   height: 5%;
   width: 5%;
 }
-.editModal{
+.editModal {
   display: flex;
   flex-direction: column;
   width: 30%;
-  height: 40% ;
+  height: 40%;
 }
-.editInps{
+.editInps {
   width: 300px;
   margin-top: 5%;
   margin-bottom: 5%;
