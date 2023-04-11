@@ -1,36 +1,171 @@
 {
   "profiles": [
     {
-      "name": "Джонни Депп",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/bcaecab2-5007-40d4-82e5-38cb54f24454/280x420",
-      "number": "7890345567",
-      "skills": "вапавптаволрповарплоаврпол ыварвылоа рываолывр олывра ",
-      "price": "1000",
+      "name": "Дарика Жолборсова ",
+      "image": "https://i.ibb.co/rQMCJPJ/photo-2023-04-11-13-22-14.jpg",
+      "number": "9967555780655",
+      "skills": "Frontend developer",
+      "price": "1000000",
+      "category": "JavaScript",
+      "id": 1
+    },
+    {
+      "name": "Мээрим",
+      "image": "https://i.ibb.co/HDWSMN3/1.jpg",
+      "number": "996504900774",
+      "skills": "HTML/CSS; Native JS; ",
+      "price": "1000000000000000",
+      "category": "JavaScript",
+      "id": 2
+    },
+    {
+      "name": "Эмиль Ибраев",
+      "image": "https://i.ibb.co/QFLktNj/IMG-2410-795-1080.jpg",
+      "number": "996550970899",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "50",
+      "category": "JavaScript",
+      "id": 3
+    },
+    {
+      "name": "Абу-Амаль",
+      "image": "https://i.ibb.co/nbHpkNj/Photo-2023-04-11-13-33-56.jpg",
+      "number": "996552001214",
+      "skills": "HTML/CSS, JS, Node.JS, Git/GitHub, Java",
+      "price": "100",
+      "category": "JavaScript",
       "id": 4
     },
     {
-      "name": "Уилл",
-      "image": "https://www.vokrug.tv/pic/person/b/9/9/a/b99a3231be2d48070f7a88393c6bfea8.jpg",
-      "number": "999777888",
-      "skills": "Уилл Смит (Will Smith) (Актер, Продюсер, Актер озвучивания):",
-      "price": "340",
+      "name": "Yrysbek ll Jora",
+      "image": "https://i.ibb.co/FszLz32/IMG-20230216-142555-939.png",
+      "number": "996702917186",
+      "skills": "HTML/CSS, NATIVE JS, GIT",
+      "price": "70/1h",
+      "category": "JavaScript",
+      "id": 5
+    },
+    {
+      "name": "Nilom Porvani",
+      "image": "https://i.ibb.co/VL52FTs/photo-2023-04-11-14-00-52.jpg",
+      "number": "загадочно оставлю  это поле",
+      "skills": "HTML / CSS, Native JS, React, Fullstack в мечтах, не дочь маминой подруги",
+      "price": "99.99",
+      "category": "JavaScript",
+      "id": 6
+    },
+    {
+      "name": "Adilet",
+      "image": "https://i.ibb.co/MRY7Ghb/photo-2023-04-11-13-04-10.jpg",
+      "number": "996700016304",
+      "skills": "Js-Developer",
+      "price": "3000 ( Доп услуги платные)",
+      "category": "JavaScript",
       "id": 7
     },
     {
-      "name": "Джонни Депп",
-      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/bcaecab2-5007-40d4-82e5-38cb54f24454/280x420",
-      "number": "7890345567",
-      "skills": "вапавптаволрповарплоаврпол ыварвылоа рываолывр олывра ",
+      "name": "Burul Nazarbekova",
+      "image": "https://i.ibb.co/s69Hd06/9272871-B-D1-F4-410-C-8780-FF2-C86-C4-F8-AB.jpg",
+      "number": "555111333",
+      "skills": "~*~*~*~*~*~",
+      "price": "2000000000",
+      "category": "JavaScript",
+      "id": 8
+    },
+    {
+      "name": "Ырыскелди Жакыпбеков",
+      "image": "https://i.ibb.co/sq50yMj/rysya.jpg",
+      "number": "501745074",
+      "skills": "низкий как хоббит",
+      "price": "864",
+      "category": "JavaScript",
+      "id": 9
+    },
+    {
+      "name": "Мирдин",
+      "image": "https://i.ibb.co/Kbs6TQv/image.jpg",
+      "number": "996777888999",
+      "skills": "Mentor JS",
+      "price": "10000",
+      "category": "JavaScript",
+      "id": 10
+    },
+    {
+      "name": "Егор VAS",
+      "image": "https://i.ibb.co/x1CsjLg/photo-5307680547167914140-y-4.jpg",
+      "number": "+996554023969",
+      "skills": "HTML/CSS, JS, МС ПО СПИРТУ, 3D Modeling, Designer, ",
+      "price": "666",
+      "category": "JavaScript",
+      "id": 11
+    },
+    {
+      "name": "Айдай Надырбекова",
+      "image": "https://i.ibb.co/MP4wW92/photo-2023-04-11-12-57-33.jpg",
+      "number": "996705728209",
+      "skills": "Frontend developer,UX/UI designer, PR specialist ",
+      "price": "1000000",
+      "category": "JavaScript",
+      "id": 12
+    },
+    {
+      "name": "Азамат Джиртанов",
+      "image": "https://i.ibb.co/1Rp3vkz/c.jpg",
+      "number": "556404437",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "69",
+      "category": "JavaScript",
+      "id": 13
+    },
+    {
+      "name": "Роман",
+      "image": "https://i.ibb.co/9wvNqzD/photo-2023-04-11-13-43-06.jpg",
+      "number": "996 551 222 065",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "340",
+      "category": "JavaScript",
+      "id": 14
+    },
+    {
+      "name": "Аслан Иманбеков",
+      "image": "https://i.ibb.co/zR34j5R/photo-5307621259439359640-y.jpg",
+      "number": "996708344284",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "300000000",
+      "category": "JavaScript",
+      "id": 15
+    },
+    {
+      "name": "Дастан",
+      "image": "https://i.ibb.co/DRdstdm/image.jpg",
+      "number": "0770777777",
+      "skills": "Деятель исскуств",
+      "price": "10000000",
+      "id": 16
+    },
+    {
+      "name": "Емир",
+      "image": "https://i.ibb.co/NN4ZQfL/IMG-0916-1.jpg",
+      "number": "996559438886",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "100",
+      "id": 17
+    },
+    {
+      "name": "Mедер",
+      "image": "https://i.ibb.co/jZ6svJN/meder.jpg",
+      "number": "996552055925",
+      "skills": "HTML / CSS, Native JS, React",
+      "price": "250",
+      "id": 18
+    },
+    {
+      "name": "Mарлен",
+      "image": "https://i.ibb.co/NZtg4qq/IMG-20220524-202600.jpg",
+      "number": "996500611172",
+      "skills": "HTML / CSS, Native JS, React",
       "price": "1000",
-      "id": 4
-    },
-    {
-      "name": "Уилл",
-      "image": "https://www.vokrug.tv/pic/person/b/9/9/a/b99a3231be2d48070f7a88393c6bfea8.jpg",
-      "number": "999777888",
-      "skills": "Уилл Смит (Will Smith) (Актер, Продюсер, Актер озвучивания):",
-      "price": "340",
-      "id": 7
+      "id": 19
     }
   ]
 }
