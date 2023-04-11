@@ -11,6 +11,10 @@ let cardsContainer = document.querySelector(".cards-container");
 let detailsModal = document.querySelector("#modal");
 let inpSearch = document.querySelector("#inpSearch");
 // let searchValue = "";
+let prevBtn = document.querySelector("#prevBtn");
+let nextBtn = document.querySelector("#nextBtn");
+let currentPage = 1;
+let pageLength = 1;
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -59,7 +63,7 @@ async function createProfile(objProf) {
 
 // Read - отображение данных
 async function readProfile(search = "") {
-  let res = await fetch(`${API}?q=${search}`);
+  let res = await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
   let data = await res.json();
   cardsContainer.innerHTML = "";
   data.forEach((elem) => {
@@ -73,6 +77,7 @@ async function readProfile(search = "") {
         </div>
     `;
   });
+  countPages();
 }
 readProfile();
 
@@ -154,4 +159,24 @@ inpSearch.addEventListener("input", (e) => {
   // console.log(e.target.value);
   // searchValue = e.target.value;
   readProfile(e.target.value);
+});
+
+// ! ================= Pagination ==========
+
+async function countPages() {
+  let res = await fetch(API);
+  let data = await res.json();
+  pageLength = Math.ceil(data.length / 3);
+}
+
+prevBtn.addEventListener("click", () => {
+  if (currentPage <= 1) return;
+  currentPage--;
+  readProfile();
+});
+
+nextBtn.addEventListener("click", () => {
+  if (currentPage >= pageLength) return;
+  currentPage++;
+  readProfile();
 });
