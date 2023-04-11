@@ -68,6 +68,19 @@
             id="inpPrice"
             class="inputs"
           />
+          <select
+            style="height: 41px"
+            id="inpName"
+            class="inputs"
+            name="select"
+          >
+            <!--Supplement an id here instead of using 'name'-->
+            <option value="value1" selected>Категории</option>
+            <option value="value2">JavaScript</option>
+            <option value="value3">Python</option>
+            <option value="value3">PM</option>
+            <option value="value3">Designer</option>
+          </select>
         </div>
         <button id="btnCreate">Создать</button>
       </form>
@@ -75,11 +88,11 @@
 
     <!-- filter buttons made by adik  -->
     <div class="filter_btns container">
-      <button class="filter_btn" id="btn1">Все</button>
-      <button class="filter_btn" id="btn2">Пальто</button>
-      <button class="filter_btn" id="btn3">Свитшоты</button>
-      <button class="filter_btn" id="btn4">Кардиганы</button>
-      <button class="filter_btn" id="btn5">Толстовки</button>
+      <button class="filter_btn" id="btn1">JavaScript</button>
+      <button class="filter_btn" id="btn2">Python</button>
+      <button class="filter_btn" id="btn3">PM</button>
+      <button class="filter_btn" id="btn4">Designer</button>
+      <button class="filter_btn" id="btn5">Все</button>
     </div>
     <!-- filter buttons made by adik  -->
 
@@ -99,8 +112,9 @@
     <!-- start two buttons -->
     <div class="container">
       <div class="twobtn">
-        <button id="prevBtn" class="btn btnOne active">Prev</button>
-        <button id="nextBtn" class="btn btnTwo">Next</button>
+        <button id="prevBtn" class="btn btnOne active"><</button>
+        <button id="nextBtn" class="btn btnTwo">></button>
+
         <!-- need to link fontawesome...  -->
         <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
         <!-- need to link fontawesome...  -->
