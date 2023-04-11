@@ -9,6 +9,8 @@ const API = "http://localhost:8000/profiles";
 let form = document.querySelector("form");
 let cardsContainer = document.querySelector(".cards-container");
 let detailsModal = document.querySelector("#modal");
+let inpSearch = document.querySelector("#inpSearch");
+// let searchValue = "";
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -56,8 +58,8 @@ async function createProfile(objProf) {
 }
 
 // Read - отображение данных
-async function readProfile() {
-  let res = await fetch(API);
+async function readProfile(search = "") {
+  let res = await fetch(`${API}?q=${search}`);
   let data = await res.json();
   cardsContainer.innerHTML = "";
   data.forEach((elem) => {
@@ -146,3 +148,10 @@ closeBtn.addEventListener("click", () => {
 function showDetailsModal() {
   detailsModal.style.display = "flex";
 }
+
+// ! ============== Seacrh =============
+inpSearch.addEventListener("input", (e) => {
+  // console.log(e.target.value);
+  // searchValue = e.target.value;
+  readProfile(e.target.value);
+});
