@@ -21,6 +21,9 @@ let detailsName = document.querySelector("#modalRight h2");
 let detailsPrice = document.querySelector("#modalRight h3");
 let detailsSkills = document.querySelector("#modalRight p");
 
+let categoryBtns = document.querySelectorAll(".filter_btns button");
+let filterValue = "Все";
+
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
 form.addEventListener("submit", (e) => {
@@ -68,7 +71,12 @@ async function createProfile(objProf) {
 
 // Read - отображение данных
 async function readProfile(search = "") {
-  let res = await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
+  let res =
+    filterValue !== "Все"
+      ? await fetch(
+          `${API}?q=${search}&_page=${currentPage}&_limit=3&category=${filterValue}`
+        )
+      : await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
   let data = await res.json();
   cardsContainer.innerHTML = "";
   data.forEach((elem) => {
@@ -196,4 +204,14 @@ nextBtn.addEventListener("click", () => {
   if (currentPage >= pageLength) return;
   currentPage++;
   readProfile();
+});
+
+// ! ============== FILTER ===============
+// console.log(categoryBtns);
+categoryBtns.forEach((elem) => {
+  elem.addEventListener("click", () => {
+    // console.log(elem.innerText);
+    filterValue = elem.innerText;
+    readProfile();
+  });
 });
