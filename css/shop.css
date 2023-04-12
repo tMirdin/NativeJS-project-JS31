@@ -221,8 +221,8 @@ body {
   max-width: 70%;
   margin: 25px auto;
   border: 1px solid #998e78;
-  position: absolute;
-  top: 10%;
+  position: fixed;
+  top: 8%;
   left: 15%;
   background-color: #fff;
 }

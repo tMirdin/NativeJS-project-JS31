@@ -15,6 +15,11 @@ let prevBtn = document.querySelector("#prevBtn");
 let nextBtn = document.querySelector("#nextBtn");
 let currentPage = 1;
 let pageLength = 1;
+let closeBtnDetailsModal = document.querySelector("#closeBtn");
+let detailsImage = document.querySelector("#modalLeft");
+let detailsName = document.querySelector("#modalRight h2");
+let detailsPrice = document.querySelector("#modalRight h3");
+let detailsSkills = document.querySelector("#modalRight p");
 
 // Навешиваем событие submit на тег Form, для того, чтобы собрать значения инпутов в один объект и отрпавить их в db.json
 
@@ -69,7 +74,7 @@ async function readProfile(search = "") {
   data.forEach((elem) => {
     cardsContainer.innerHTML += `
     <div class="card-profile">
-          <img src="${elem.image}" alt="${elem.name}" onclick="showDetailsModal()"/>
+          <img src="${elem.image}" alt="${elem.name}" onclick="showDetailsModal(${elem.id})"/>
           <h4>${elem.name}</h4>
           <span>$${elem.price}</span>
           <button onclick="deleteProfile(${elem.id})">delete</button>
@@ -150,9 +155,21 @@ closeBtn.addEventListener("click", () => {
 
 // ! Details - детальное отображение данных
 
-function showDetailsModal() {
+async function showDetailsModal(id) {
   detailsModal.style.display = "flex";
+  let res = await fetch(`${API}/${id}`);
+  let data = await res.json();
+  // console.log(data);
+  // console.log(detailsImage.src);
+  detailsImage.src = data.image;
+  detailsName.innerText = data.name;
+  detailsPrice.innerText = data.price;
+  detailsSkills.innerText = data.skills;
 }
+
+closeBtnDetailsModal.addEventListener("click", () => {
+  detailsModal.style.display = "none";
+});
 
 // ! ============== Seacrh =============
 inpSearch.addEventListener("input", (e) => {
