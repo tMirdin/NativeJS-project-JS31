@@ -42,7 +42,7 @@
       "number": "996702917186",
       "skills": "HTML/CSS, NATIVE JS, GIT",
       "price": "70/1h",
-      "category": "JavaScript",
+      "category": "Python",
       "id": 5
     },
     {
@@ -51,7 +51,7 @@
       "number": "загадочно оставлю  это поле",
       "skills": "HTML / CSS, Native JS, React, Fullstack в мечтах, не дочь маминой подруги",
       "price": "99.99",
-      "category": "JavaScript",
+      "category": "Python",
       "id": 6
     },
     {
@@ -60,7 +60,7 @@
       "number": "996700016304",
       "skills": "Js-Developer",
       "price": "3000 ( Доп услуги платные)",
-      "category": "JavaScript",
+      "category": "Python",
       "id": 7
     },
     {
@@ -69,7 +69,7 @@
       "number": "555111333",
       "skills": "~*~*~*~*~*~",
       "price": "2000000000",
-      "category": "JavaScript",
+      "category": "Python",
       "id": 8
     },
     {
@@ -78,7 +78,7 @@
       "number": "501745074",
       "skills": "низкий как хоббит",
       "price": "864",
-      "category": "JavaScript",
+      "category": "PM",
       "id": 9
     },
     {
@@ -87,7 +87,7 @@
       "number": "996777888999",
       "skills": "Mentor JS",
       "price": "10000",
-      "category": "JavaScript",
+      "category": "PM",
       "id": 10
     },
     {
@@ -96,7 +96,7 @@
       "number": "+996554023969",
       "skills": "HTML/CSS, JS, МС ПО СПИРТУ, 3D Modeling, Designer, ",
       "price": "666",
-      "category": "JavaScript",
+      "category": "PM",
       "id": 11
     },
     {
@@ -105,7 +105,7 @@
       "number": "996705728209",
       "skills": "Frontend developer,UX/UI designer, PR specialist ",
       "price": "1000000",
-      "category": "JavaScript",
+      "category": "Designer",
       "id": 12
     },
     {
@@ -114,7 +114,7 @@
       "number": "556404437",
       "skills": "HTML / CSS, Native JS, React",
       "price": "69",
-      "category": "JavaScript",
+      "category": "Designer",
       "id": 13
     },
     {
@@ -123,7 +123,7 @@
       "number": "996 551 222 065",
       "skills": "HTML / CSS, Native JS, React",
       "price": "340",
-      "category": "JavaScript",
+      "category": "Designer",
       "id": 14
     },
     {
@@ -132,7 +132,7 @@
       "number": "996708344284",
       "skills": "HTML / CSS, Native JS, React",
       "price": "300000000",
-      "category": "JavaScript",
+      "category": "Designer",
       "id": 15
     },
     {
@@ -141,6 +141,7 @@
       "number": "0770777777",
       "skills": "Деятель исскуств",
       "price": "10000000",
+      "category": "Designer",
       "id": 16
     },
     {
@@ -149,6 +150,7 @@
       "number": "996559438886",
       "skills": "HTML / CSS, Native JS, React",
       "price": "100",
+      "category": "JavaScript",
       "id": 17
     },
     {
@@ -157,6 +159,7 @@
       "number": "996552055925",
       "skills": "HTML / CSS, Native JS, React",
       "price": "250",
+      "category": "JavaScript",
       "id": 18
     },
     {
@@ -165,6 +168,7 @@
       "number": "996500611172",
       "skills": "HTML / CSS, Native JS, React",
       "price": "1000",
+      "category": "Python",
       "id": 19
     }
   ]
